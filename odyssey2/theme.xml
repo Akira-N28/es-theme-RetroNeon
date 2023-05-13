@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+	
+	<view name="system, basic, detailed, grid">
+		<image name="SystemBGGlow,  box_small_glow, box_large_glow, HelpMenuBackground" extra="true">
+			<color>${system_glow_5}</color>
+		</image>		
+	
+	
+		<helpsystem name="help">
+			<iconColor>${system_glow_5}</iconColor>
+		</helpsystem>
+		
+		<image name="SystemBGGlow_refl_bottom, SystemBGGlow_refl_top, box_small_glow_refl" extra="true">
+			<color>${system_glow_5}77</color>
+		</image>
+	</view>
+	
+</theme>

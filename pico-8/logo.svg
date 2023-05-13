@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="353.42676"
+   height="100"
+   viewBox="0 0 353.42675 99.999999"
+   id="svg79299"
+   sodipodi:docname="pico-8.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs79303" />
+  <sodipodi:namedview
+     id="namedview79301"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="2.1084495"
+     inkscape:cx="200.8585"
+     inkscape:cy="150.82173"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg79299" />
+  <g
+     id="g80411"
+     transform="matrix(0.04873591,0,0,0.04873591,-4.8735913,-4.8735913)">
+    <path
+       d="m 131.875,2120 c -42.5,-42.5 -42.5,-947.5 0,-990 17.5,-17.5 62.5,-30 100,-30 60,0 70,-10 70,-72.5 0,-40 15,-85 32.5,-100 47.5,-37.5 1937.5,-37.5 1985,0 17.5,15 32.5,60 32.5,100 0,65 10,72.5 75,72.5 65,0 75,-10 75,-70 0,-120 30,-130 425,-130 395,0 425,10 425,130 0,60 10,70 75,70 65,0 75,-10 75,-70 0,-37.5 12.5,-82.5 30,-100 42.5,-42.5 947.5,-42.5 990,0 17.5,17.5 30,100 30,197.5 v 170 l 295,7.5 c 160,5 330,2.5 375,-2.5 l 80,-7.5 v -167.5 c 0,-97.5 12.5,-180 30,-197.5 20,-20 145,-30 400,-30 h 370 V 730 c 0,-187.5 22.5,-230 130,-230 60,0 70,-10 70,-70 0,-90 40,-130 130,-130 60,0 70,-10 70,-70 0,-105 42.5,-130 225,-130 182.5,0 225,25 225,130 0,60 10,70 70,70 90,0 130,40 130,130 0,60 10,70 70,70 105,0 130,42.5 130,225 0,182.5 -25,225 -130,225 -60,0 -70,10 -70,70 0,90 -40,130 -130,130 -60,0 -70,10 -70,70 0,105 -42.5,130 -225,130 -182.5,0 -225,-25 -225,-130 0,-60 -10,-70 -75,-70 h -75 v 470 c 0,332.5 -10,480 -30,500 -42.5,42.5 -1147.5,42.5 -1190,0 -17.5,-17.5 -30,-100 -30,-200 v -170 h -550 v 70 c 0,90 -40,130 -130,130 -60,0 -70,10 -70,72.5 0,40 -15,82.5 -32.5,100 -47.5,37.5 -2937.5,37.5 -2985,0 -42.5,-37.5 -45,-350 -2.5,-392.5 17.5,-17.5 62.5,-30 100,-30 h 70 v -350 h -150 v 170 c 0,100 -12.5,182.5 -30,200 -20,20 -122.5,30 -300,30 h -270 v 170 c 0,100 -12.5,182.5 -30,200 -40,40 -550,40 -590,0 z m 2170,-595 v -175 h -150 v 350 h 150 z m 1000,0 v -175 h -350 v 350 h 350 z"
+       style="fill:#000000;stroke:none;stroke-width:2.5"
+       id="path79277" />
+    <path
+       d="m 6626.875,1125 v -100 h -200 V 825 h -200 V 625 h 200 V 425 h 200 V 225 h 200 v 200 h 200 v 200 h 200 v 200 h -200 v 200 h -200 v 200 h -200 z"
+       style="fill:#00e756;stroke:none;stroke-width:2.5"
+       id="path79279" />
+    <path
+       d="M 6626.875,1025 V 825 h -400 V 625 h 200 V 425 h 200 V 225 h 200 v 200 h 200 v 200 h 200 v 200 h -200 v 200 h -200 v 200 h -200 z"
+       style="fill:#ff004d;stroke:none;stroke-width:2.5"
+       id="path79281" />
+    <path
+       d="M 6626.875,1025 V 825 h -400 V 625 h 200 V 425 h 600 v 200 h 200 v 200 h -200 v 200 h -200 v 200 h -200 z"
+       style="fill:#83769c;stroke:none;stroke-width:2.5"
+       id="path79283" />
+    <path
+       d="M 6626.875,1025 V 825 h -400 V 625 h 200 V 425 h 600 v 200 h 200 v 200 h -400 v 400 h -200 z"
+       style="fill:#ffa300;stroke:none;stroke-width:2.5"
+       id="path79285" />
+    <path
+       d="M 6626.875,1025 V 825 h -400 V 625 h 400 V 425 h 400 v 200 h 200 v 200 h -400 v 400 h -200 z"
+       style="fill:#29adff;stroke:none;stroke-width:2.5"
+       id="path79287" />
+    <path
+       d="M 6626.875,925 V 825 h -400 V 625 h 400 V 425 h 400 v 200 h 200 v 200 h -400 v 200 h -200 z"
+       style="fill:#ff77a8;stroke:none;stroke-width:2.5"
+       id="path79289" />
+    <path
+       d="M 6626.875,925 V 825 h -400 V 625 h 400 V 425 h 400 v 400 h -200 v 200 h -200 z"
+       style="fill:#ffff27;stroke:none;stroke-width:2.5"
+       id="path79291" />
+    <path
+       d="M 6626.875,925 V 825 h -200 V 625 h 200 V 425 h 400 v 400 h -200 v 200 h -200 z"
+       style="fill:#ffccaa;stroke:none;stroke-width:2.5"
+       id="path79293" />
+    <g
+       style="fill:#fff1e8;stroke:none"
+       id="g79297">
+      <path
+         d="m 226.875,1625 v -400 h 200 v -200 h 800 v 600 h -600 v 400 h -400 z m 600,-300 v -100 h -200 v 200 h 200 z m 600,600 v -100 h 200 v -600 h -200 v -200 h 800 v 200 h -200 v 600 h 200 v 200 h -800 z m 1000,-300 v -400 h 200 v -200 h 600 v 200 h -400 v 600 h 400 v 200 h -800 z m 1000,0 v -400 h 200 v -200 h 800 v 800 h -200 v 200 h -800 z m 600,-100 v -300 h -200 v 600 h 200 z m 1200,200 v -300 h 200 v -400 h 800 v 1000 h -1000 z m 800,0 v -100 h -400 v 200 h 400 z m 0,-400 v -100 h -400 v 200 h 400 z m -1400,200 v -100 h 400 v 200 h -400 z m 2000,-600 V 825 h -200 V 625 h 200 V 425 h 200 v 200 h 200 v 200 h -200 v 200 h -200 z"
+         id="path79295" />
+    </g>
+  </g>
+</svg>
