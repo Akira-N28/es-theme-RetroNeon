@@ -1,0 +1,22 @@
+<theme>
+
+	<formatVersion>7</formatVersion>
+
+	<subset name="background type" displayName="background type">
+		<include name="Gradient">./../_Components/BG_Type/Gradient.xml</include>
+		<include name="Solid">./../_Components/BG_Type/White.xml</include>	
+		<include name="Black">./../_Components/BG_Type/Black.xml</include>
+	</subset>
+
+	<subset name="pattern type" displayName="pattern type">
+		<include name="grid">./../_Components/BG_Pattern/grid.xml</include>
+		<include name="lines">./../_Components/BG_Pattern/lines.xml</include>
+		<include name="none"></include>	
+	</subset>
+	
+	<subset name="color scheme" displayName="color scheme">
+		<include name="Retro 80s">./../_Components/BG_Colors/Retro80.xml</include>
+		<include name="Neon Cyan-Magenta">./../_Components/BG_Colors/CyanMagenta.xml</include>	
+	</subset>
+	
+</theme>

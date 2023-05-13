@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<formatVersion>7</formatVersion>
+
+<variables>
+		<borders>Ffffff</borders>
+		<glow>F2BD1D</glow>
+		<system_glow_1>F2BD1D</system_glow_1>
+		<system_glow_2>F2BD1D</system_glow_2>
+		<system_glow_3>F2BD1D</system_glow_3>
+		<system_glow_4>F2BD1D</system_glow_4>
+		<system_glow_5>F2BD1D</system_glow_5>
+		<system_glow_6>F2BD1D</system_glow_6>
+		<system_glow_7>F2BD1D</system_glow_7>
+		<main_BG_color>BF1B86</main_BG_color>
+		<main_BG_color_2>2F048C</main_BG_color_2>
+</variables>
+
+</theme>

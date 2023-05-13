@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+<formatVersion>7</formatVersion>
+
+<variables>
+		<borders>Ffffff</borders>
+		<glow>F22EBE</glow>
+		<system_glow_1>F22EBE</system_glow_1>
+		<system_glow_2>F22EBE</system_glow_2>
+		<system_glow_3>F22EBE</system_glow_3>
+		<system_glow_4>F22EBE</system_glow_4>
+		<system_glow_5>F22EBE</system_glow_5>
+		<system_glow_6>F22EBE</system_glow_6>
+		<system_glow_7>F22EBE</system_glow_7>
+		<main_BG_color>04C4D9</main_BG_color>
+		<main_BG_color_2>012840</main_BG_color_2>
+</variables>
+
+</theme>
+
+
