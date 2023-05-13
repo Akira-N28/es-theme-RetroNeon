@@ -1,0 +1,665 @@
+<!--
+theme name: RetroNeon
+version: 1.0
+author: Akira_N28
+email:
+website:
+license: creative commons CC-BY-NC-SA
+based on: "Carbon" by Eric Hettervik
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<include>./_configs/Background_options.xml</include>
+	
+	<variables>
+		<menuBGColor>000000</menuBGColor>
+		<menuFontColor>d4d4d4</menuFontColor>
+	</variables>
+
+<!------------------------------------------------------->
+<!------------ DEFINING CAROUSEL LOOK-------------------->
+<!------------------------------------------------------->
+	<feature supported="carousel">
+		<view name="system">	
+				<carousel name="systemcarousel">				
+					<color>${menuBGColor}bb</color>
+					<logoSize>0.22 0.115</logoSize>
+					<logoScale>1.7</logoScale>
+					<logoTextSize>0.22 0</logoTextSize>
+				</carousel>
+				
+				<text name="systemInfo">
+					<backgroundColor>${menuBGColor}bb</backgroundColor>
+					<color>${menuFontColor}</color>
+					<fontPath>./_assets/Fonts/Roboto-Light.ttf</fontPath>
+					<fontSize>0.035</fontSize>
+					<origin>0 0</origin>
+					<pos>0 0</pos>
+				</text>
+		</view>	
+	</feature>
+<!------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------->
+	
+<!------------------------------------------------------------------------------->
+<!------------ INITIALISING BACKGROUND ELEMENTS FOR ALL VIEWS-------------------->
+<!------------------------------------------------------------------------------->
+	<view name="system, basic, detailed, grid">
+
+	<!-- BACKGROUND SYSTEM LOGO NEON -->
+		<image name="BG" extra="true">
+			<color>${main_BG_color}</color>
+		</image>
+	
+		<image name="BGLayer2" extra="true">
+			<color>${main_BG_color_2}88</color>
+		</image>
+	
+		<image name="SystemBGGlow" extra="true">
+			<!-- <path>./_systems/${system.theme}/BG_glow.png</path> -->
+			<!-- <path>./_assets/Backgrounds/BG_glow/${system.theme}.png</path> -->
+			<path>./${system.theme}/BG_glow.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<maxSize>1.5 1</maxSize>
+			<zIndex>2</zIndex>
+			<visible>0</visible>
+		</image>		
+		
+		<image name="SystemBGBorder" extra="true">
+			<!-- <path>./_systems/${system.theme}/BG_clean.png</path> -->
+			<!-- <path>./_assets/Backgrounds/BG_clean/${system.theme}.png</path> -->
+			<path>./${system.theme}/BG_clean.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<maxSize>1.5 1</maxSize>
+			<zIndex>3</zIndex>
+			<visible>0</visible>
+			<color>${borders}</color>
+		</image>
+		
+		<image name="SystemBGBorder_refl_bottom, SystemBGBorder_refl_top" extra="true">
+			<!-- <path>./_systems/${system.theme}/BG_clean.png</path> -->
+			<!-- <path>./_assets/Backgrounds/BG_clean_refl/${system.theme}.png</path> -->
+			<path>./${system.theme}/BG_clean_refl.png</path>
+			<maxSize>1.5 1</maxSize>
+			<zIndex>3</zIndex>
+			<visible>0</visible>
+			<color>${borders}aa</color>
+		</image>
+		
+		<image name="SystemBGGlow_refl_bottom, SystemBGGlow_refl_top" extra="true">
+			<!-- <path>./_systems/${system.theme}/BG_clean.png</path> -->
+			<!-- <path>./_assets/Backgrounds/BG_glow_refl/${system.theme}.png</path> -->
+			<path>./${system.theme}/BG_glow_refl.png</path>
+			<maxSize>1.5 1</maxSize>
+			<zIndex>3</zIndex>
+			<visible>0</visible>
+		</image>
+		
+
+
+	<!-- LARGE BOX -->
+		<image name="box_large" extra="true">
+			<path>./_assets/Images/borderlarge.png</path>
+			<color>${borders}</color>
+			<zIndex>13</zIndex>
+
+		</image>
+		
+		<image name="box_large_glow" extra="true">
+			<path>./_assets/Images/glowlarge.png</path>
+			<zIndex>12</zIndex>
+		</image>
+		
+		<image name="box_large, box_large_glow" extra="true">
+			<visible>0</visible>
+			<origin>0.5 0.5</origin>
+			<size>0.425 0.81</size>
+		</image>
+		
+		<image name="box_large_BG" extra="true">
+			<path>./_assets/Images/bg_color.png</path>
+			<color>${menuBGColor}bb</color>
+		<!-- <color>FF000055</color> --> <!-- enable to higlight box_large_BG -->
+		</image>
+		
+		<image name="box_large_BG_refl" extra="true">
+			<path>./_assets/Images/bg_color.png</path>
+			<color>${menuBGColor}55</color>
+		<!-- <color>FF000055</color> --> <!-- enable to higlight box_large_BG_refl -->
+		</image>
+		
+		<image name="box_large_BG, box_large_BG_refl" extra="true">
+			<!-- <path>./_assets/Images/bg_color.png</path> -->
+			<visible>0</visible>
+			<origin>0.5 0.5</origin>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<size>0.38 0.75</size>
+			<zIndex>11</zIndex>
+		</image>
+
+	<!-- SMALL BOX -->
+		<image name="box_small" extra="true">
+			<path>./_assets/Images/bordersmall.png</path>
+			<color>${borders}</color>
+						<zIndex>18</zIndex>
+		</image>
+		
+		<image name="box_small_glow" extra="true">
+			<path>./_assets/Images/glowsmall.png</path>
+						<zIndex>17</zIndex>
+		</image>
+		
+		<image name="box_small_glow_refl" extra="true">
+			<path>./_assets/Images/glowsmall.png</path>
+						<zIndex>17</zIndex>
+		</image>
+		
+		<image name="box_small_refl" extra="true">
+			<path>./_assets/Images/bordersmall.png</path>
+			<color>${borders}55</color>
+						<zIndex>18</zIndex>
+		</image>
+		
+		<image name="box_small_BG" extra="true">
+			<path>./_assets/Images/bg_color.png</path>
+			<color>${menuBGColor}bb</color>
+			<!-- <color>FF000055</color> --> <!-- enable to higlight box_small_BG -->
+		</image>
+		
+		<image name="box_small_BG_refl" extra="true">
+			<path>./_assets/Images/bg_color.png</path>
+			<color>${menuBGColor}55</color>
+			<!-- <color>00FF0055</color> --> <!-- enable to higlight box_small_BG_refl -->
+		</image>
+		
+		<image name="box_small, box_small_glow, box_small_refl, box_small_glow_refl" extra="true">
+			<origin>0.5 0.5</origin>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<size>0.5 0.22</size>
+			<visible>0</visible>
+		</image>
+		
+		<image name="box_small_BG, box_small_BG_refl" extra="true">
+			<origin>0.5 0.5</origin>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<size>0.44 0.14</size>
+			<zIndex>16</zIndex>
+			<visible>0</visible>
+		</image>
+		
+	</view>
+<!------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------->
+
+
+<!------------------------------------------------------------------------------->
+<!------- DEFINING HELP MENU, HELP MENU BACKGROUND, SYSTEM LOGO PATH ------------>
+<!------------------------------------------------------------------------------->
+	<view name="system, basic, detailed, grid">
+		<image name="HelpMenuBackground" extra="true">
+			<tile>false</tile>
+			<size>1 0.09</size>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<path>./_assets/Images/bottom.png</path>
+			<!-- <color>${menuBGColor}bb</color> -->
+			<zIndex>60</zIndex>
+		</image>
+	
+		<helpsystem name="help">
+			<pos>0.015 0.94</pos>
+			<textColor>${menuFontColor}</textColor>
+			<fontPath>./_assets/Fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.024</fontSize>
+		</helpsystem>
+		
+		<image name="logo">
+			<path>./${system.theme}/logo.svg</path>
+			<path>./${system.theme}/logo.png</path>
+			<!-- <path>./_assets/Logos/${system.theme}.svg</path> -->
+			<!-- <path>./_assets/Logos/${system.theme}.png</path> -->
+			<origin>0.5 0.5</origin>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<maxSize>0.35 0.105</maxSize>
+			<visible>1</visible>
+		</image>
+		
+		<image name="logo_reflected" extra="true">
+			<path>./${system.theme}/logo.svg</path>
+			<path>./${system.theme}/logo.png</path>
+			<!-- <path>./_assets/Logos/${system.theme}.svg</path> -->
+			<!-- <path>./_assets/Logos/${system.theme}.png</path> -->
+			<origin>0.5 0.5</origin>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<maxSize>0.35 0.105</maxSize>
+			<flipY>1</flipY>
+			<color>FFFFFF55</color>
+			<zIndex>18</zIndex>
+			<visible>0</visible>
+		</image>
+		
+		<text name="logoText">
+			<origin>0.5 0.5</origin>
+			<rotationOrigin>0.5 0.5</rotationOrigin>
+			<size>0.35 0.105</size>
+			<forceUppercase>true</forceUppercase>
+			<color>${menuFontColor}</color>
+			<zIndex>60</zIndex>
+			<alignment>center</alignment>
+		</text>
+		
+	</view>
+<!------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------->
+
+<!-------------------------------->
+<!------- SYSTEM VIEW ------------>
+<!-------------------------------->
+	<view name="system">
+		<image name="SystemBGGlow, SystemBGBorder" extra="true">
+			<visible>1</visible>
+		</image>		
+		
+		<image name="SystemBGGlow_refl_bottom, SystemBGBorder_refl_bottom" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.8</pos>
+			<visible>1</visible>
+		</image>
+		
+		<image name="SystemBGGlow_refl_top, SystemBGBorder_refl_top" extra="true">
+			<origin>0.5 1</origin>
+			<pos>0.5 0.2</pos>
+			<visible>1</visible>
+		</image>
+	</view>
+<!-------------------------------->
+<!-------------------------------->
+
+<!-------------------------------->
+<!------- BASIC VIEW ------------->
+<!-------------------------------->
+	<view name="basic">
+	
+<!-- BOXES POSITION -->
+		<image name="box_small_glow, box_small, box_small_BG" extra="true">
+			<visible>1</visible>
+			<pos>0.25 0.685</pos>
+		</image>
+		
+		<image name="box_small_glow_refl, box_small_refl, box_small_BG_refl, logo_reflected" extra="true">
+			<pos>0.25 0.850</pos>
+			<visible>1</visible>
+		</image>
+			
+<!-- GAMELIST AND GAMELIST BACKGROUND -->			
+		<image name="gamelist_background" extra="true">
+			<path>./_assets/Images/bg_color.png</path>
+			<origin>0 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>0.5 1</size>
+			<color>${menuBGColor}bb</color>
+		</image>
+						
+		<textlist name="gamelist">
+			<selectorColor>FFFFFF00</selectorColor>
+			<selectedColor>${menuFontColor}</selectedColor>
+			<primaryColor>555555FF</primaryColor>
+			<secondaryColor>55555599</secondaryColor>
+			<fontPath>./_assets/Fonts/Roboto-Light.ttf</fontPath>
+			<pos>0.55 0.275</pos>
+			<size>0.4 0.5</size>
+			<fontSize>0.04</fontSize>
+			<alignment>left</alignment>
+			<lineSpacing>2</lineSpacing>
+		</textlist>
+
+<!-- LOGO POSITION OVERRIDE --->		
+		<image name="logo">
+			<pos>0.25 0.685</pos>
+		</image>
+		
+		<text name="logoText">
+			<pos>0.25 0.685</pos>
+		</text>
+		
+<!-- HELP BAR FONT SIZE OVERRIDE -->		
+		<helpsystem name="help">
+			<fontSize>0.024</fontSize>
+		</helpsystem>
+		
+	</view>
+<!-------------------------------->
+<!-------------------------------->
+
+<!----------------------------------->
+<!------- DETAILED VIEW ------------->
+<!----------------------------------->
+	<view name="detailed">
+
+<!-- HELP BAR FONT SIZE OVERRIDE -->	
+		<helpsystem name="help">  
+			<fontSize>0.024</fontSize>
+		</helpsystem>
+
+<!-- LOGO POSITION OVERRIDE --->
+		<image name="logo">
+			<pos>0.724 0.153</pos>
+		</image>
+		
+		<text name="logoText">
+			<pos>0.724 0.153</pos>
+		</text>
+
+<!-- LOADING IMAGE -->
+		<image name="md_image">
+			<origin>1 1</origin>
+			<pos>0.975 0.79</pos>
+			<maxSize>0.5 0.5</maxSize>
+			<reflexion>0.4 0</reflexion>
+		</image>
+
+<!-- BOXES POSITION -->
+		<image name="box_large, box_large_glow, box_large_BG" extra="true">
+			<visible>1</visible>
+			<pos>0.225 0.455</pos>
+		</image>
+		
+		<image name="box_large_BG_refl" extra="true">
+			<visible>1</visible>
+			<pos>0.225 1.27</pos>
+		</image>
+		
+		<image name="box_large, box_large_glow" extra="true">
+			<reflexion>0.3 0</reflexion>
+		</image>
+		
+		<image name="box_small_glow, box_small, box_small_BG" extra="true">
+			<visible>1</visible>
+			<pos>0.724 0.153</pos>
+		</image>
+
+<!--BUILDING DETAILS BOX CONTENT-->
+		<text name="md_description">
+			<pos>0.05 0.23</pos>
+			<size>0.35 0.35</size>
+			<color>${menuFontColor}</color>
+			<fontPath>./_assets/Fonts/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1.3</lineSpacing>
+		</text>
+		
+		<image name="line_separator1, line_separator2" extra="true">
+			<path>./_assets/Images/bg_color.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.225 0.21</pos>
+			<size>0.35 0.0025</size>
+			<color>${menuFontColor}</color>
+			<zIndex>11</zIndex>
+		</image>
+		
+		<image name="line_separator2" extra="true">
+			<pos>0.225 0.6</pos>
+		</image>
+
+<!-- DEFINING METADATA LABELS, FONT, PROPERTIES AND POSITIONS -->	
+		<text name="md_name">
+			<origin>0.5 0</origin>
+			<pos>0.225 0.09</pos>
+			<size>0.35 0.1</size>
+			<color>${menuFontColor}</color>
+			<fontPath>./_assets/Fonts/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<alignment>center</alignment>
+		</text>
+
+		<text name="md_lbl_releasedate, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_rating">
+			<origin>0 0.5</origin>
+			<color>${menuFontColor}</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_assets/Fonts/Roboto-Medium.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.24 0.01</size>
+		</text>
+
+		<text name="md_publisher, md_genre, md_players">
+			<origin>0 0.5</origin>
+			<color>${menuFontColor}</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_assets/Fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.0225</fontSize>
+			<size>0.23 0.02</size>
+		</text>
+
+		<datetime name="md_releasedate">
+			<origin>0 0.5</origin>
+			<color>${menuFontColor}</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_assets/Fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.0225</fontSize>
+			<size>0.23 0.02</size>
+		</datetime>
+
+		<text name="md_lbl_releasedate">
+			<pos>0.05 0.635</pos>
+		</text>
+
+		<datetime name="md_releasedate">
+			<pos>0.155 0.635</pos>
+		</datetime>
+
+		<text name="md_lbl_publisher">
+			<pos>0.05 0.675</pos>
+		</text>
+
+		<text name="md_publisher">
+			<pos>0.155 0.675</pos>
+		</text>			
+
+		<text name="md_lbl_genre">
+			<pos>0.05 0.715</pos>
+		</text>
+
+		<text name="md_genre">
+			<pos>0.155 0.715</pos>
+		</text> 
+
+		<text name="md_lbl_players">
+			<pos>0.05 0.755</pos>
+		</text>
+
+		<text name="md_players">
+			<pos>0.155 0.755</pos>			
+		</text>
+
+		<text name="md_lbl_rating">
+			<pos>0.05 0.795</pos>
+		</text>
+
+		<rating name="md_rating">
+			<origin>0 0.5</origin>
+			<pos>0.155 0.795</pos>
+			<size>0.23 0.02</size>
+			<filledPath>./_assets/Images/star_full_light.png</filledPath>
+			<unfilledPath>./_assets/Images/star_hollow_light.png</unfilledPath>
+		</rating>	
+
+	</view>
+<!-------------------------------->
+<!-------------------------------->
+
+<!----------------------------------->
+<!----------- GRID VIEW ------------->
+<!----------------------------------->
+	<view name="grid">
+
+	<!-- HELP BAR FONT SIZE OVERRIDE -->	
+		<helpsystem name="help"> 
+			<fontSize>0.024</fontSize>
+		</helpsystem>
+		
+	<!-- BOXES POSITION AND SIZE -->
+		<image name="box_small_glow, box_small, box_small_BG" extra="true">
+			<pos>0.85 0.5</pos>
+			<rotation>-90</rotation>
+			<visible>1</visible>
+		</image>
+		
+		<image name="box_small_glow_refl, box_small_refl, box_small_BG_refl" extra="true">
+			<pos>0.85 1.125</pos>
+			<rotation>-90</rotation>
+			<visible>1</visible>
+		</image>
+
+	<!-- LOGO AND LOGO REFLECTION POSITION OVERRIDE --->	
+		<image name="logo">
+			<pos>0.85 0.5</pos>
+			<rotation>-90</rotation>
+		</image>
+		
+		<text name="logoText">
+			<pos>0.85 0.5</pos>
+			<rotation>-90</rotation>
+		</text>
+		
+		<image name="logo_reflected" extra="true">
+			<pos>0.85 1.125</pos>
+			<rotation>90</rotation>
+			<visible>1</visible>
+		</image>
+
+	<!-- BUILDING SLIDESHOW -->
+		<imagegrid name="gamegrid">
+			<margin>0.050 0.005</margin>
+			<pos>0 0.025</pos>
+			<size>1 0.95</size>
+			<scrollDirection>horizontal</scrollDirection>
+			<autoLayout>3 1</autoLayout>
+			<autoLayoutSelectedZoom>1.75</autoLayoutSelectedZoom>
+			<centerSelection>true</centerSelection>
+			<scrollLoop>true</scrollLoop>
+			<padding>0.1 0.0 0.1 0.0</padding>
+			<zIndex>15</zIndex>
+		</imagegrid>
+
+		<gridtile name="default">
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<padding>5 5</padding>
+			<imageColor>555555dd</imageColor>
+			<reflexion>0.3 0.0</reflexion>
+			<zIndex>15</zIndex>
+		</gridtile>
+
+		<gridtile name="selected">
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<imageColor>FFFFFFFF</imageColor>
+			<zIndex>15</zIndex>
+		</gridtile>
+
+	</view>
+<!-------------------------------->
+<!-------------------------------->
+
+<!----------------------------------->
+<!------- MENU ---------------------->
+<!----------------------------------->
+  <view name="menu">
+    <menuText name="menutitle">
+      <fontPath>./_assets/Fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.044</fontSize>
+      <color>${glow}</color>
+    </menuText>
+	
+    <menuText name="menufooter">
+      <fontPath>./_assets/Fonts/Roboto-Light.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>${glow}</color>
+    </menuText>
+	
+    <menuText name="menutext">
+      <fontPath>./_assets/Fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.03</fontSize>
+      <color>${glow}77</color>
+      <separatorColor>323232FF</separatorColor>
+      <selectorColor>${main_BG_color_2}</selectorColor>
+      <selectorColorEnd>${main_BG_color}</selectorColorEnd>
+      <selectedColor>${glow}</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType>
+	  <lineSpacing>2.5</lineSpacing>
+    </menuText>
+	
+    <menuTextSmall name="menutextsmall">
+      <fontPath>./_assets/Fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.02</fontSize>
+      <color>${glow}</color>
+    </menuTextSmall>
+	
+    <!-- <menuGroup name="menugroup"> -->
+      <!-- <fontPath>./_assets/Fonts/Cabin-Bold.ttf</fontPath> -->
+      <!-- <fontSize>0.025</fontSize> -->
+      <!-- <color>${main_BG_color_2}</color> -->
+      <!-- <separatorColor>${groupSeparatorColor}</separatorColor> -->
+      <!-- <backgroundColor>${glow}55</backgroundColor> -->
+      <!-- <lineSpacing>2.5</lineSpacing> -->
+    <!-- </menuGroup> -->
+	
+    <menuBackground name="menubg">
+      <color>${menuBGcolor}</color>
+	  <color>${main_BG_color_2}aa</color>
+      <cornerSize>32 32</cornerSize>
+      <path>./_assets/_components/BG_Type/Gradient.svg</path>
+    </menuBackground>
+	
+    <menuIcons name="menuicons">
+      <iconBrightnessctl>./_assets/Icons/Brightnessctl.png</iconBrightnessctl>
+      <iconKodi>./_assets/Icons/Kodi.png</iconKodi>
+      <iconSystem>./_assets/Icons/System.png</iconSystem>
+      <iconUpdates>./_assets/Icons/Updates.png</iconUpdates>
+      <iconGames>./_assets/Icons/Games.png</iconGames>
+      <iconControllers>./_assets/Icons/Controllers.png</iconControllers>
+      <iconUI>./_assets/Icons/UI.png</iconUI>
+      <iconSound>./_assets/Icons/Sound.png</iconSound>
+      <iconNetwork>./_assets/Icons/Network.png</iconNetwork>
+      <iconScraper>./_assets/Icons/Scraper.png</iconScraper>
+      <iconAdvanced>./_assets/Icons/Advanced.png</iconAdvanced>
+      <iconQuit>./_assets/Icons/Quit.png</iconQuit>
+      <iconRestart>./_assets/Icons/Restart.png</iconRestart>
+      <iconShutdown>./_assets/Icons/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./_assets/Icons/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./_assets/Icons/Contest.png</iconRetroachievements>
+      <iconManual>./_assets/Icons/Manual.png</iconManual>
+    </menuIcons>
+	
+    <menuTextEdit name="menutextedit">
+      <inactive>./_assets/Images/textinput_ninepatch.png</inactive>
+      <active>./_assets/Images/textinput_ninepatch_active.png</active>
+    </menuTextEdit>
+	
+    <menuButton name="menubutton">
+      <path>./_assets/Images/button.png</path>
+      <filledPath>./_assets/Images/button_filled.png</filledPath>
+    </menuButton>
+  </view>
+<!-------------------------------->
+<!-------------------------------->
+
+<!------------------------------------------------------------------------->
+<!------- ADJUSTMENTS TO APPLY WHEN HELP MENU IS OFF ---------------------->
+<!------------------------------------------------------------------------->
+	<include ifHelpPrompts="false">./_configs/NoHelp.xml</include>
+<!-------------------------------->
+<!-------------------------------->
+
+	
+</theme>
