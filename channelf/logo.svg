@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="566.36615"
+   height="100"
+   version="1.1"
+   viewBox="0 0 566.36615 100"
+   id="svg29327"
+   sodipodi:docname="channelf.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs29331" />
+  <sodipodi:namedview
+     id="namedview29329"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="229.8097"
+     inkscape:cy="73.539105"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg29327" />
+  <g
+     id="g6361"
+     transform="matrix(6.1677297,0,0,6.1677297,-1.3688726,-0.45520767)">
+    <g
+       id="g29321"
+       style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;paint-order:markers stroke fill"
+       transform="translate(-2.2184867,-1.4303172)">
+      <path
+         id="path29319"
+         d="m 28.766,3.41 -6.375,12.127 h 3.132 l 2.396,-4.64 h 2.736 v 4.64 h 2.63 V 3.409 Z m 0.687,4.55 1.196,-2.084 0.006,2.084 z M 34.44,3.41 v 12.127 h 2.949 V 9.23 l 4.37,6.302 v 0.005 H 44.4 V 3.409 H 41.352 V 9.901 L 36.762,3.409 36.749,3.423 36.746,3.409 Z m 21.988,0 v 12.127 h 6.968 v -2.835 h -3.82 v -1.655 h 3.643 V 7.9 H 59.577 V 6.244 h 3.82 V 3.41 Z m 7.867,0 v 12.127 h 6.437 V 12.702 H 67.243 V 3.41 Z M 8.656,3.273 C 5.2342258,3.316278 2.4830705,6.1024543 2.4830705,9.5245 c 0,3.422046 2.7511553,6.208222 6.1729295,6.2515 2.008,-0.048 3.629,-0.849 4.636,-2.087 l -2.203,-2.153 c -0.568,0.845 -1.652,1.164 -2.41,1.175 -4.1159981,0 -4.1159981,-6.1740001 0,-6.174 0.962,0.044 1.487,0.248 2.136,0.901 l 0.026,-0.023 0.021,0.02 2.386,-2.147 C 12.009,4.007 10.364,3.288 8.656,3.273 Z M 45.54,3.41 v 12.127 h 2.949 V 9.23 l 4.37,6.302 v 0.005 H 55.5 V 3.409 H 52.452 V 9.901 L 47.862,3.409 47.849,3.423 47.846,3.409 Z M 23.339,14.909 V 3.409 H 20.29 V 8.188 H 16.598 V 3.409 h -2.949 v 12.128 h 2.949 v -4.601 h 3.692 v 4.6 h 2.812"
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.529168;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccc" />
+    </g>
+    <g
+       id="g6354">
+      <path
+         d="m 81.266513,0.08968282 c 3.07,0.021 8.809,0.455 9.473,1.21599998 0.74,0.848 1.244,4.501 1.221,6.794 -0.023,2.2930002 -0.488,6.4000002 -1.487,6.9720002 -1.088,0.622 -6.14,1.117 -9.207,1.092 -3.067,-0.025 -8.253,-0.297 -9.317,-1.092 -0.881,-0.614 -1.487,-4.722 -1.435,-6.9720002 0.051,-2.25 0.233,-5.773 1.291,-6.768 0.918,-0.80999998 6.507,-1.26399998 9.461,-1.24299998 z"
+         fill="none"
+         stroke="#000000"
+         stroke-linejoin="round"
+         stroke-width="0.176"
+         id="path29325"
+         style="fill:#ffffff;fill-opacity:1" />
+      <path
+         d="M 77.489513,1.5626828 V 14.622683 h 3.36 V 9.6616828 h 4.227 v -3.048 h -4.227 v -2.07 h 4.227 v -2.981 z"
+         fill="#ff0000"
+         id="path29323" />
+    </g>
+  </g>
+  <metadata
+     id="metadata6350">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Logo Fairchild Channel F</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
