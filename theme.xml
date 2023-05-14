@@ -51,11 +51,11 @@ based on: "Carbon" by Eric Hettervik
 	<view name="system, basic, detailed, grid">
 
 	<!-- BACKGROUND SYSTEM LOGO NEON -->
-		<image name="BG" extra="true">
+		<image name="BG, BGSolidLight" extra="true">
 			<color>${main_BG_color}</color>
 		</image>
 	
-		<image name="BGLayer2" extra="true">
+		<image name="BGLayer2, BGSolidDark" extra="true">
 			<color>${main_BG_color_2}88</color>
 		</image>
 	
