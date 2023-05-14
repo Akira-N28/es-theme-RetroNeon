@@ -1,0 +1,16 @@
+<theme>
+
+	<formatVersion>7</formatVersion>
+	
+	<view name="system, basic, detailed, grid">
+		<image name="BGSolidLight" extra="true">
+			<path>./Solid.svg</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<tile>false</tile>
+			<zIndex>0</zIndex>
+		</image>
+	</view>
+	
+</theme>
