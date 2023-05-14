@@ -4,7 +4,8 @@
 
 	<subset name="background type" displayName="background type">
 		<include name="Gradient">./../_Components/BG_Type/Gradient.xml</include>
-		<include name="Solid">./../_Components/BG_Type/White.xml</include>	
+		<include name="Solid Dark">./../_Components/BG_Type/Solid.xml</include>
+		<include name="Solid Light">./../_Components/BG_Type/Solid.xml</include>	
 		<include name="Black">./../_Components/BG_Type/Black.xml</include>
 	</subset>
 
