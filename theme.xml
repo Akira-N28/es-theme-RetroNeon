@@ -290,12 +290,33 @@ based on: "Carbon" by Eric Hettervik
 <!-- BOXES POSITION -->
 		<image name="box_small_glow, box_small, box_small_BG" extra="true">
 			<visible>1</visible>
-			<pos>0.25 0.685</pos>
+			<pos>0.25 0.1</pos>
 		</image>
-		
+
 		<image name="box_small_glow_refl, box_small_refl, box_small_BG_refl, logo_reflected" extra="true">
-			<pos>0.25 0.850</pos>
+			<pos>0.25 0.80</pos>
+			<visible>0</visible>
+		</image>
+
+		<image name="SystemBGGlow,SystemBGBorder" extra="true">
+			<maxSize>0.5 0.5</maxSize>
+			<pos>0.25 0.525</pos>
+			<origin>0.5 0.5</origin>
 			<visible>1</visible>
+		</image>
+
+		<image name="SystemBGGlow_refl_bottom, SystemBGBorder_refl_bottom" extra="true">
+			<origin>0.5 0</origin>
+			<pos>0.25 0.785</pos>
+			<maxSize>0.5 0.5</maxSize>
+			<visible>1</visible>
+		</image>
+
+		<image name="SystemBGGlow_refl_top, SystemBGBorder_refl_top" extra="true">
+			<origin>0.5 1</origin>
+			<pos>0.25 0.19</pos>
+			<maxSize>0.5 0.5</maxSize>
+			<visible>0</visible>
 		</image>
 			
 <!-- GAMELIST AND GAMELIST BACKGROUND -->			
