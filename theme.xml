@@ -343,11 +343,11 @@ based on: "Carbon" by Eric Hettervik
 
 <!-- LOGO POSITION OVERRIDE --->		
 		<image name="logo">
-			<pos>0.25 0.685</pos>
+			<pos>0.25 0.1</pos>
 		</image>
 		
 		<text name="logoText">
-			<pos>0.25 0.685</pos>
+			<pos>0.25 0.1</pos>
 		</text>
 		
 <!-- HELP BAR FONT SIZE OVERRIDE -->		
