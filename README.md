@@ -67,5 +67,5 @@ RetroNeon was tested on the following resolutions :
 - 640*480 (4:3 ratio) - Tested on Anbernic RG351MP running ArkOS
 - It will work on other EmulationStation based systems and/or other resolutions, but compatibility is not guaranteed
 
-#Disclaimer
+# Disclaimer
 All trademarks and logos used in this project are property of their respective owners.
