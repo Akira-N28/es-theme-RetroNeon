@@ -35,27 +35,33 @@ RetroNeon look is customizable to some extent:
 
 - Systems carousel
 
-![01 - main menu, default](https://github.com/Akira-N28/es-theme-retroneon-arkos/assets/111049817/e906aa97-119d-4f23-86cf-3bbf906d7d6c)
+![01 - main menu, default](https://github.com/Akira-N28/RetroNeon-an_ArkOS_theme/assets/111049817/951d89c8-ca6a-438d-9b44-2f7b646e06ed)
+
 
 - Background patterns comparison (grid, lines, none)
 
-![patterns](https://github.com/Akira-N28/es-theme-retroneon-arkos/assets/111049817/34b28c73-ef3a-4b98-8764-1e0f18500db8)
+![patterns](https://github.com/Akira-N28/RetroNeon-an_ArkOS_theme/assets/111049817/15a6fbb9-077f-49b2-9b06-09ca034715ed)
+
 
 - Background styles comparison (gradient, solid, black)
 
-![colors](https://github.com/Akira-N28/es-theme-retroneon-arkos/assets/111049817/378c557c-e455-4cea-b603-a9e497a639d6)
+![colors](https://github.com/Akira-N28/RetroNeon-an_ArkOS_theme/assets/111049817/0a35af2c-92b0-4796-9b78-780db4f1e002)
+
 
 - Basic view
 
-![08 - Basic view](https://github.com/Akira-N28/es-theme-retroneon-arkos/assets/111049817/a6079561-78e5-4d5c-9566-d4b1003e5f70)
+![08 - Basic view](https://github.com/Akira-N28/RetroNeon-an_ArkOS_theme/assets/111049817/5567adb3-8306-4e73-b4a6-a90f45221c29)
+
 
 - Detailed view
 
-![09 - Detailed view](https://github.com/Akira-N28/es-theme-retroneon-arkos/assets/111049817/2273ec66-fd66-4677-9d77-2fcc4248a874)
+![09 - Detailed view](https://github.com/Akira-N28/RetroNeon-an_ArkOS_theme/assets/111049817/65503246-4248-47e7-9f92-4b32a0713abe)
+
 
 - Grid view
 
-![10 - Grid view](https://github.com/Akira-N28/es-theme-retroneon-arkos/assets/111049817/6ab4e637-69b7-47b2-81bf-40d13b0a45f5)
+![10 - Grid view](https://github.com/Akira-N28/RetroNeon-an_ArkOS_theme/assets/111049817/175854b0-3bb7-4e6c-8d9f-5e0a55678eca)
+
 
 
 # Changelog
@@ -69,6 +75,7 @@ RetroNeon was tested on the following resolutions :
 
 # Disclaimer
 All trademarks and logos used in this project are property of their respective owners.
+
 All fonts used in this project are free for personal and commercial use.
 
 # License
