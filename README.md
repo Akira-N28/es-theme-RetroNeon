@@ -69,3 +69,4 @@ RetroNeon was tested on the following resolutions :
 
 # Disclaimer
 All trademarks and logos used in this project are property of their respective owners.
+All fonts used in this project are free for personal and commercial use.
